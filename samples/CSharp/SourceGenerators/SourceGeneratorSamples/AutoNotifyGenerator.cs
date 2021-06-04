@@ -41,7 +41,7 @@ namespace AutoNotify
         public void Execute(GeneratorExecutionContext context)
         {
             // retrieve the populated receiver 
-            if (!(context.SyntaxContextReceiver is SyntaxReceiver receiver))
+            if (context.SyntaxContextReceiver is not SyntaxReceiver receiver)
                 return;
 
             // get the added attribute, and INotifyPropertyChanged

@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\AutoDecorated\AutoDecorated.csproj" />
     <ProjectReference Include="..\SourceGeneratorSamples\CSharpSourceGeneratorSamples.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
   </ItemGroup>
 
